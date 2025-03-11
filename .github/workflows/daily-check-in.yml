@@ -2,7 +2,7 @@ name: Daily Check-in
 
 on:
   schedule:
-    - cron: '*/20 * * * *'  # 每 20 分钟执行一次
+    - cron: '*/20 8-20 * * *'
   workflow_dispatch:
 
 jobs:
